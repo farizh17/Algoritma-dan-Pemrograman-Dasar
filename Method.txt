@@ -1,0 +1,32 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package method;
+
+import java.util.Scanner;
+/**
+ *
+ * @author Developer
+ */
+public class Method {
+public static double Keliling(double x,double y){
+    return(2*(x+y));
+}    
+public static double Luas(double x,double y){
+    return(x*y);
+}
+
+    public static void main(String[] args) {
+        Scanner Baca = new Scanner(System.in);
+        double pjg,lbr;
+        System.out.print("Panjang = "); pjg=Baca.nextDouble();
+        System.out.print("Lebar = "); lbr=Baca.nextDouble();
+        System.out.println("Keliling = "+Keliling(pjg,lbr));
+        System.out.println("Luas = "+Luas(pjg,lbr));
+    }
+    
+}
+
+

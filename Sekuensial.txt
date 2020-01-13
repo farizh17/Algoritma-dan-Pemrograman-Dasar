@@ -1,0 +1,24 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package penukarran.pkg2.bilangan;
+import static java.lang.System.out;
+/**
+ *
+ * @author Developer
+ */
+public class Penukarran2Bilangan {
+
+    public static void main(String[] args) {   
+     int a =5, b=8, c;
+     out.println("Sebelum Ditukar");
+     out.println("a ="+a+" b ="+b);
+     c=a;a=b;b=c;
+     out.println("Sebelum Ditukar");
+     out.println("a ="+a+" b ="+b);
+    }
+}
+
+
